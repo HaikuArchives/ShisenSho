@@ -43,6 +43,7 @@
 #include <stdlib.h>
 #include <sys/times.h>
 #include <stdio.h>
+#include <cstring>
 #include <Alert.h>
 
 const int EMPTY	= 0;
