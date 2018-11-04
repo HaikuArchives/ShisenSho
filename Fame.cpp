@@ -15,7 +15,7 @@ const int32 RR[6] = {40, 80, 142, 198, 320, 382};
 const alignment AL[6] = {B_ALIGN_CENTER, B_ALIGN_RIGHT, B_ALIGN_RIGHT, B_ALIGN_LEFT, B_ALIGN_LEFT, B_ALIGN_LEFT};
 const char* CA[6] = {"Rank", "Score", "Time", "Size", "Player", "Date"};
 
-FameWnd::FameWnd(BWindow* Owner, int apts=-1, int ish=-1, int x=-1, int y=-1)
+FameWnd::FameWnd(BWindow* Owner, int apts/*=-1*/, int ish/*=-1*/, int x/*=-1*/, int y/*=-1*/)
 			: BWindow(BRect(00, 00, 390, 210), "Shisen-Fame", B_MODAL_WINDOW, B_NOT_RESIZABLE) {
 			
   fOwner = Owner;
